@@ -1,12 +1,12 @@
 
-##Overview.
+## Overview
 
 SecureVault is a simple, high-security Python utility designed to demonstrate how real-time encryption works.
 
 The standout feature of this program is its "In-Memory" security model. Unlike many apps that store keys in files on your computer, SecureVault generates a unique Master Key that lives only in your computer's RAM. Once you close the program or hit "Exit," that key is permanently destroyed, making the session's data impossible to recover even if someone has access to your hard drive.
 
 
-##Features.
+## Features
 
 Ephemeral Key Management: Session keys are generated on startup and never saved to disk.
 
@@ -19,7 +19,7 @@ Automatic Cleanup: Clears the terminal screen for a clean UI and handles keyboar
 Human-Centric Design: Simple interactive loop for testing messages in real-time.
 
 
-##Tools & Technologies.
+## Tools & Technologies
 
 Language: Python 3.x
 
@@ -30,7 +30,7 @@ os: For cross-platform terminal management.
 time: For simulating processing delays.
 
 
-##Steps to Run
+## Steps to Run
 
 Follow these steps to get the environment ready and run the program:
 
