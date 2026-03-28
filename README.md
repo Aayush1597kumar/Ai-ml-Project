@@ -1,42 +1,47 @@
 
-###Overview
-#SecureVault is a simple, high-security Python utility designed to demonstrate how real-time encryption works.
+##Overview
 
-#The standout feature of this program is its "In-Memory" security model. Unlike many apps that store keys in files on your computer, SecureVault generates a unique Master Key that lives only in your computer's RAM. Once you close the program or hit "Exit," that key is permanently destroyed, making the session's data impossible to recover even if someone has access to your hard drive.
+SecureVault is a simple, high-security Python utility designed to demonstrate how real-time encryption works.
+
+The standout feature of this program is its "In-Memory" security model. Unlike many apps that store keys in files on your computer, SecureVault generates a unique Master Key that lives only in your computer's RAM. Once you close the program or hit "Exit," that key is permanently destroyed, making the session's data impossible to recover even if someone has access to your hard drive.
+
 
 ##Features
 
-#Ephemeral Key Management: Session keys are generated on startup and never saved to disk.
+Ephemeral Key Management: Session keys are generated on startup and never saved to disk.
 
-#Symmetric Encryption: Utilizes the cryptography library to ensure data integrity and confidentiality.
+Symmetric Encryption: Utilizes the cryptography library to ensure data integrity and confidentiality.
 
-#Visual Stack Trace: Shows the user exactly what a "hacker" would see (the encrypted token) versus the decrypted result.
+Visual Stack Trace: Shows the user exactly what a "hacker" would see (the encrypted token) versus the decrypted result.
 
-#Automatic Cleanup: Clears the terminal screen for a clean UI and handles keyboard interrupts (Ctrl+C) to wipe sessions safely.
+Automatic Cleanup: Clears the terminal screen for a clean UI and handles keyboard interrupts (Ctrl+C) to wipe sessions safely.
 
-#Human-Centric Design: Simple interactive loop for testing messages in real-time.
+Human-Centric Design: Simple interactive loop for testing messages in real-time.
+
 
 ##Tools & Technologies
 
-#Language: Python 3.x
+Language: Python 3.x
 
-#Libraries: * cryptography: Specifically the Fernet module for AES-based encryption.
+Libraries: * cryptography: Specifically the Fernet module for AES-based encryption.
 
-#os: For cross-platform terminal management.
+os: For cross-platform terminal management.
 
-#time: For simulating processing delays.
+time: For simulating processing delays.
+
 
 ##Steps to Run
 
-#Follow these steps to get the environment ready and run the program:
+Follow these steps to get the environment ready and run the program:
 
-#Install Python: Ensure you have Python 3.8 or higher installed.
+Install Python: Ensure you have Python 3.8 or higher installed.
 
-#Install Dependencies: Open your terminal and run the following command to install the required library: pip install cryptography.
+Install Dependencies: Open your terminal and run the following command to install the required library: pip install cryptography.
 
-#Download the Script: Save the code as secure_messenger.py.
+Download the Script: Save the code as secure_messenger.py.
 
-#Execute : Run the program
+Execute : Run the program
+
 
 ##Test Cases for SecureVault
 
