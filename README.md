@@ -40,10 +40,12 @@ Install Dependencies: Open your terminal and run the following command to instal
 
 Download the Script: Save the code as secure_messenger.py.
 
-Execute : Run the program
+Execute : Run the program.
 
 
-##Test Cases for SecureVault
+
+##Test Cases for SecureVault.
+
 
 # Basic Message Success
 
