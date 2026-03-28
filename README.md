@@ -82,3 +82,9 @@ Expected Result: The program should catch the interruption and print "Process in
 Action: Run the program, encrypt a word, then exit. Restart the program and try to think if the old message could be read.
 
 Expected Result: Every time you restart, a new session_key is generated. This proves that messages from a previous session are now impossible to decrypt, confirming the "In-Memory" security feature works.
+
+# Screenshot  1
+<img width="1920" height="1080" alt="Screenshot 2026-03-28 152944" src="https://github.com/user-attachments/assets/52aa5b17-b6e5-4f05-acc7-b763606edca2" />
+
+# Screenshot  2
+<img width="1920" height="1080" alt="Screenshot 2026-03-28 152956" src="https://github.com/user-attachments/assets/313a55f5-0a03-4dc1-83c7-524e8e3575fe" />
